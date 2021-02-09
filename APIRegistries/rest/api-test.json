@@ -1,3 +1,4 @@
 {
   "*": "{\"serviceName\":\"api-test-svc\", \"flag\":1}"
+  "123": "{\"serviceName\":\"123-svc\", \"flag\":1}"
 }
