@@ -1,7 +1,8 @@
 {
   "attendance": {
     "v1": {
-      "TimeEvent": "time-service"
+      "TimeEvent": "time-service"，
+      "TimeEvent2": "time-service2"
     }
   }
 }
