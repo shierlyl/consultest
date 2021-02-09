@@ -1,3 +1,1 @@
-'*': '{"serviceName": "abc-svc"}'
-'abc': '{"serviceName": "abc-svc"}'
-'abcd': '{"serviceName": "abcd-svc"}'
+'abcde': '{"serviceName": "abcde-svc"}'
