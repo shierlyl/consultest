@@ -1,1 +1,2 @@
 'abcdef': '{"serviceName": "abcdef-svc"}'
+echo.servicename: echo-svc
