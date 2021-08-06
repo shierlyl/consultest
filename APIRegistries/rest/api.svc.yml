@@ -1,7 +1,7 @@
 'abcdef': '{"serviceName": "abcdef-svc"}'
 echo.servicename: echo-svc
 abc123: '{
-            "serviceName": "abcdef-svc"
+            "serviceName": "abcdef-svc",
             "CORS": {
               "Access-Control-Allow-Origin": [
                 "^http.*\\.sapanalytics\\.cloud$",
