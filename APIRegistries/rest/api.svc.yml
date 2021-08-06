@@ -1,2 +1,16 @@
 'abcdef': '{"serviceName": "abcdef-svc"}'
 echo.servicename: echo-svc
+abc123: '{
+            "serviceName": "abcdef-svc"
+            "CORS": {
+              "Access-Control-Allow-Origin": [
+                "^http.*\\.sapanalytics\\.cloud$",
+                "^http.*\\.successfactors\\..*$"
+              ],
+              "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,HEAD,OPTIONS",
+              "Access-Control-Allow-Headers": "x-csrf-token,x-sap-cid,content-type,authorization,accept,x-request-with,accept-encoding,accept-language,access-control-request-headers,access-control-request-method,cache-control,connection,host,origin,pragma,referer,user-agent,application-id",
+              "Access-Control-Allow-Credentials": true,
+              "Access-Control-Expose-Headers": "x-csrf-token,x-sap-cid,content-type,authorization,accept,x-request-with,Access-Control-Allow-Origin,Access-Control-Allow-Credentials",
+              "Access-Control-Max-Age": 3600
+            }
+          }'
